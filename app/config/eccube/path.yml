@@ -1,0 +1,55 @@
+# duplicated
+root: /ec-cube/html/ # root_urlpath
+admin_dir: admin/ # admin_route
+tpl: /ec-cube/html/user_data/packages/default/ # front_urlpath
+admin_tpl: /ec-cube/html/user_data/packages/admin/ # admin_urlpath
+image_path: /ec-cube/html/upload/save_image/ # image_save_urlpath
+
+# base valiables
+root_dir: /Applications/MAMP/htdocs/ec-cube
+root_urlpath: /ec-cube/html
+template_code: default
+
+# routing
+admin_route: admin
+user_data_route: user_data
+
+# public directory
+public_path: /html
+public_path_realdir: /Applications/MAMP/htdocs/ec-cube/html
+
+# realdir::image
+image_save_realdir: /Applications/MAMP/htdocs/ec-cube/html/upload/save_image
+image_temp_realdir: /Applications/MAMP/htdocs/ec-cube/html/upload/temp_image
+
+# realdir::user_data
+user_data_realdir: /Applications/MAMP/htdocs/ec-cube/html/user_data
+
+# realdir::block
+block_default_realdir: /Applications/MAMP/htdocs/ec-cube/src/Eccube/Resource/template/default/Block
+block_realdir: /Applications/MAMP/htdocs/ec-cube/app/template/default/Block
+
+# realdir::template
+template_default_realdir: /Applications/MAMP/htdocs/ec-cube/src/Eccube/Resource/template/default
+template_default_html_realdir: /Applications/MAMP/htdocs/ec-cube/html/template/default
+template_admin_realdir: /Applications/MAMP/htdocs/ec-cube/src/Eccube/Resource/template/admin
+template_admin_html_realdir: /Applications/MAMP/htdocs/ec-cube/html/template/admin
+template_realdir: /Applications/MAMP/htdocs/ec-cube/app/template/default
+template_html_realdir: /Applications/MAMP/htdocs/ec-cube/html/template/default
+template_temp_realdir: /Applications/MAMP/htdocs/ec-cube/app/cache/eccube/template
+
+# realdir::csv
+csv_temp_realdir: /Applications/MAMP/htdocs/ec-cube/app/cache/eccube/csv
+
+# realdir:plugin
+plugin_realdir: /Applications/MAMP/htdocs/ec-cube/app/Plugin
+plugin_temp_realdir: /Applications/MAMP/htdocs/ec-cube/app/cache/plugin
+plugin_html_realdir: /Applications/MAMP/htdocs/ec-cube/html/plugin
+
+# urlpath
+admin_urlpath: /ec-cube/html/template/admin
+front_urlpath: /ec-cube/html/template/default
+image_save_urlpath: /ec-cube/html/upload/save_image
+image_temp_urlpath: /ec-cube/html/upload/temp_image
+user_data_urlpath: /ec-cube/html/user_data
+plugin_urlpath: /ec-cube/html/plugin

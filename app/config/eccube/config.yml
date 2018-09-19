@@ -1,0 +1,13 @@
+auth_magic: ST1niyxHnFOMm3962dKEA55AYL1GJt4r
+password_hash_algos: sha256
+shop_name: eccube
+force_ssl: null
+admin_allow_host: {  }
+cookie_lifetime: 0
+cookie_name: eccube
+locale: ja
+timezone: Asia/Tokyo
+pageinrange: false
+trusted_proxies_connection_only: false
+trusted_proxies: {  }
+eccube_install: 1
