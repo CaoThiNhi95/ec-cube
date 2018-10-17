@@ -1,0 +1,8 @@
+name: ピピっとコードプラグイン無償版
+code: BarcodeForm
+version: 1.0.0
+event: BarcodeFormEvent
+service:
+    - BarcodeFormServiceProvider
+orm.path:
+    - /Resource/doctrine

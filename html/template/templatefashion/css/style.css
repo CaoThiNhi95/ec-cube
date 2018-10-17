@@ -4718,3 +4718,8 @@ fieldset[disabled] .btn-link:focus {
 .item {
 	width: 100%;
 }
+
+.slick-dots{
+    padding-bottom: 40px;
+}
+}

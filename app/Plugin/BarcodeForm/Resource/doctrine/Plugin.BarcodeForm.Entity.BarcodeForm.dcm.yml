@@ -1,0 +1,16 @@
+Plugin\BarcodeForm\Entity\BarcodeForm:
+    type: entity
+    table: plg_barcode
+    repositoryClass: Plugin\BarcodeForm\Repository\BarcodeFormRepository
+    id:
+        product_id:
+            type: integer
+            nullable: false
+            unsigned: false
+            id: true 
+    fields:
+        code:
+            type: bigint
+            nullable: true
+            unsigned: true
+    lifecycleCallbacks: {  }

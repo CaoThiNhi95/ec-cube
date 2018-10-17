@@ -209,8 +209,8 @@ body {
 }
 
 .slick-dots {
-    position: relative;
-    bottom: -45px;
+    position: absolute;
+    bottom: 5px;
     display: block;
     width: 100%;
     padding: 0;

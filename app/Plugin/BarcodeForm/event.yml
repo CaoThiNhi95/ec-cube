@@ -1,0 +1,7 @@
+admin.product.edit.initialize:
+    - [onAdminProductEditInit, NORMAL]
+admin.product.edit.complete:
+    - [onAdminProductEditComp, NORMAL]
+
+Admin/Product/product.twig:
+    - [onAdminProductProductRender, NORMAL]

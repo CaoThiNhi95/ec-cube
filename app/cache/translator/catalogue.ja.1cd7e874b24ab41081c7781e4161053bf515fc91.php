@@ -255,6 +255,16 @@ $catalogue = new MessageCatalogue('ja', array (
     'sale_price_title' => '販売価格',
     'form.address1.help' => '市区町村名 (例：千代田区神田神保町)',
     'form.address2.help' => '番地・ビル名 (例：1-3-5)',
+    'admin.recommend.not_found' => 'おすすめ商品が存在しません。',
+    'admin.recommend.recommend_id.not_exists' => 'おすすめ商品IDがありません。',
+    'admin.plugin.recommend.register.success' => 'おすすめ商品を登録しました。',
+    'admin.plugin.recommend.update.success' => 'おすすめ商品を修正しました。',
+    'admin.plugin.recommend.delete.success' => 'おすすめ商品を削除しました。',
+    'admin.plugin.recommend.delete.confirm' => 'おすすめ情報を削除してもよろしいですか？',
+    'plugin.recommend.type.product.not_found' => '商品を追加してください。',
+    'plugin.recommend.type.product_recommend.existed' => 'この商品はすでにおすすめ商品として登録されています。',
+    'plugin.recommend.type.product.limit' => 'おすすめ商品の登録件数の上限は100件です。',
+    'plugin.recommend.type.comment.placeholder' => '説明文を入力してください(HTMLタグ使用可)。',
   ),
 ));
 
